@@ -1,0 +1,26 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 48px;
+  text-align: center;
+  font-weight: 700;
+}
+
+.ttt ul {
+  margin: auto;
+  display: flex;
+  width: 397px;
+  flex-wrap: wrap;
+  -webkit-padding-start: 0px;
+}
+
+.ttt ul li {
+  border: 5px solid #000;
+  padding: 50px;
+  list-style: none;
+  background: lightgray; 
+}
+
+.ttt ul li:hover {
+  background: yellow;
+  cursor: pointer;
+}

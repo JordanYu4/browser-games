@@ -1,0 +1,23 @@
+/* PHASE 9: Forms */
+
+.content-main {
+  display: flex;
+}
+
+.input {
+  float: right;
+  width: calc(100% - 200px);
+  border: 1px solid gray;
+  border-radius: 5px;
+  background: lightgray;
+  /* display: block; */
+}
+
+.input > input, .input > textarea{
+  background: #fff;
+  display: block;
+}
+
+.input > label {
+  display: block;
+}
