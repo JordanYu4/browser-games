@@ -1,0 +1,27 @@
+h1 {
+  font-family: sans-serif;
+  font-size: 56px;
+  font-weight: 800;
+  margin: auto;
+  padding: 30px;
+  text-align: center;
+}
+
+.hanoi {
+  display: flex;  
+  margin: auto;
+  width: 700px;
+  height: 200px;
+}
+
+.hanoi ul {
+  border-bottom: 10px solid #000;
+  box-sizing: border-box;
+  margin: 15px;
+  width: 33%;
+}
+
+.hanoi ul li {
+  list-style: none;
+  text-align: center;
+}
