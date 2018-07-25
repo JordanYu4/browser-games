@@ -8,20 +8,44 @@ h1 {
 }
 
 .hanoi {
-  display: flex;  
   margin: auto;
   width: 700px;
-  height: 200px;
+
 }
 
 .hanoi ul {
   border-bottom: 10px solid #000;
   box-sizing: border-box;
   margin: 15px;
-  width: 33%;
+  width: 200px;
+  height: 250px;
+  float: left;
+  padding-bottom: 10px;
+  -webkit-padding-start: 0;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.hanoi ul:hover {
+  cursor: pointer;
+  border-color: blue;
+}
+
+.hanoi ul:after {
+  border-color: red;
 }
 
 .hanoi ul li {
   list-style: none;
   text-align: center;
+  background: #D2691E;
+  border-radius: 25px;
+  height: 50px;
+  margin: 5px auto;
+  color: #fff;
+  font-size: 24px;
+  font-family: sans-serif;
+  font-weight: 300;
+  text-decoration: underline;
 }
